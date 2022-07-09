@@ -1,0 +1,9 @@
+{
+  "connectionLimit": 10,
+  "host": "",
+  "user": "",
+  "database": "",
+  "password": "",
+  "charset" : "utf8mb4",
+  "acquireTimeout": 40000
+}

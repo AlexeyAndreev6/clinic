@@ -1,0 +1,11 @@
+.idea
+/node_modules
+/build
+yarn.lock
+package-lock.json
+
+server/node_modules
+server/build
+server/yarn.lock
+server/package-lock.json
+server/db_config.json

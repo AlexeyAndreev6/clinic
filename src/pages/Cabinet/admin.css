@@ -1,0 +1,8 @@
+.AdminTable select{
+    border: 1px solid #d9d7d5;
+    border-radius: 10px;
+    padding: 4px 5px;
+    width: 100%;
+    font-size: 16px;
+    color: #646464;
+}

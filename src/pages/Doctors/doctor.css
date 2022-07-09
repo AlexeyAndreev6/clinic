@@ -1,0 +1,48 @@
+h1 {
+    color: #007765;
+    font-weight: 500;
+    text-align: center;
+    font-size: 64px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.doctors {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 60px;
+}
+
+.doctor {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+}
+
+.doctor-name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    color: #007765;
+}
+
+.doctor-role {
+    margin-top: 4px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.searchBox {
+    display: flex;
+}
+.searchBox > div {
+    max-width: 400px;
+    margin-right: 12%;
+}

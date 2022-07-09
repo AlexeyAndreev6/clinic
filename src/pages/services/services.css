@@ -1,0 +1,62 @@
+.Servic {
+    display: flex;
+    max-width: 1280px;
+    width: 100vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.formcalc {
+    background-color: rgb(248, 246, 246);
+    width: 400px;
+    height: 25%;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.formcalc > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formcalc .removeBtn {
+    cursor: pointer;
+}
+
+.formcalc span {
+    color: black;
+}
+
+.calc span {
+    font-size: 25px;
+    color: #da2377;
+}
+
+.serv {
+    font-size: 20px;
+}
+
+.but button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #da2377;
+    border-radius: 14px;
+    font-size: 20px;
+    padding: 0px 21px;
+    transition: all 0.8s ease;
+    margin: 20px;
+}
+
+.but button:hover {
+    text-decoration: none;
+    background-color: blue;
+    color: #ffeded;
+    border-color: blue;
+}
+
+.header-title {
+    margin-top: 25px;
+    margin-left: 450px;
+}

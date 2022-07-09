@@ -1,0 +1,80 @@
+.modalWindow {
+    height: 100vh;
+    width: 80vw;
+    background-color: rgba(0, 0, 0, 0, 4);
+    position: fixed;
+    top: 0;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+
+}
+
+.modalWindow.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal__contentWindow {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+    width: 970px;
+    height: 50vh;
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+.textModal {
+    margin-right: 20px;
+}
+.modal__contentWindow .icons-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+
+.modal__contentWindow.active {
+    transform: scale(1);
+}
+
+.infoModal {
+    height: 10px;
+    font-size: 18px;
+}
+
+.information3Modal {
+    width: 500px;
+}
+
+.information2Modal {
+    width: 150px;
+    height: 10px;
+}
+
+.info {
+    font-weight: 600;
+}
+
+.titleModal h2 {
+    width: 800px;
+}
+
+.CloseIcon {
+    text-align: right;
+    color: red;
+}
+
+.Close {
+    cursor: pointer;
+}
+.submit2{
+  margin-top: 100px;
+  margin-left: 700px;
+}

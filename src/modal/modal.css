@@ -1,0 +1,140 @@
+.modal {
+    z-index: 1000;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+p {
+    color: black;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events:all;
+}
+
+.modal__content{
+    padding: 20px;
+    width: 50%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    border-radius: 12px;
+    background:white;
+    height: 60%;
+}
+
+.modal__content.active {
+    transform: scale(1);
+}
+
+h2 {
+    color: black;
+}
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #646464;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, .modal__content  select{
+    border: 1px solid #d9d7d5;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 16px;
+    color: #646464;
+}
+
+.form-left{
+    width: 40%;
+    padding-right: 30px;
+}
+
+.direction span { 
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: lowercase;
+    color:black;
+}
+
+.branch span { 
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: lowercase;
+    color:black;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.form{
+    display:flex;
+}
+
+.radio {
+    display: flex;
+}
+
+.form-right {
+    padding-left: 30px;
+}
+
+.radio-button{
+    display: flex;
+    padding-left:30px;
+}
+
+.radio-button label {
+    padding-left:30px;
+}
+
+.btn-sub {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f8f8f8;
+    background: #da2377;
+    border-radius: 46px;
+    padding: 15px 34px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.pickTime {
+    margin-top:40px;
+}
+
+.CloseIcon{
+    height: 17px;
+}
+
+.modal input, .modal  select,.modal  optgroup,.modal  textarea {
+    color: black;
+}
+
+.modal button[disabled] {
+    opacity: 0.4;
+}
+
